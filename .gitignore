@@ -1,0 +1,13 @@
+# Ignore entire directories
+sam_llm_med/*
+blood_cells_classifier/*
+mission_capstone/*
+
+# Ignore large model and training files
+fine_tune_sam2_on_microscopy_mito/*
+mission_capstone/node_modules/*
+
+# Ignore all model checkpoint formats
+*.pth
+*.torch
+*.pt
